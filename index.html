@@ -1,27 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=s, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>차분하고 시원한 웹페이지</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* 차분하고 시원한 느낌의 CSS 스타일 */
+        
+        /* 기본 설정 */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff; /* 연한 하늘색 배경 */
+            color: #333; /* 차분한 어두운 색 텍스트 */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* 헤더 스타일 */
+        header {
+            background: #e0f7fa; /* 시원한 청록색 배경 */
+            color: #00796b; /* 어두운 청록색 텍스트 */
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 메인 콘텐츠 스타일 */
+        main {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+            background: #ffffff; /* 흰색 배경 */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* 섹션 스타일 */
+        section {
+            margin-bottom: 20px;
+        }
+
+        /* 링크 스타일 */
+        a {
+            color: #0288d1; /* 시원한 파란색 */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #01579b; /* 어두운 파란색으로 변환 */
+        }
+
+        /* 버튼 스타일 */
+        button {
+            background: #0288d1; /* 시원한 파란색 */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #01579b; /* 어두운 파란색으로 변환 */
+        }
+
+        /* 푸터 스타일 */
+        footer {
+            background: #e0f7fa; /* 시원한 청록색 배경 */
+            color: #00796b; /* 어두운 청록색 텍스트 */
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
-    hello world
-    <p><h1> to meet you </h1></p>
-    <button onclick='alert("안녕")'>눌러</button>
-    asdf
-    
-    <p id="p1">text</p>
-    <button onclick = 'first()'>함수출력하는 버튼</button>
-    <script>
-        function first() {
-            let x = document.getElementById("p1");
-            x.style.color = "green";
-            x.style.border ="dashed";
-        
-    }
-    </script>
-
-
+    <header>
+        <h1>차분하고 시원한 웹페이지</h1>
+    </header>
+    <main>
+        <section>
+            <h2>소개</h2>
+            <p>이 웹페이지는 차분하고 시원한 느낌을 주기 위해 디자인되었습니다. 청록색과 파란색 계열의 색상을 사용하여 부드럽고 편안한 분위기를 제공합니다.</p>
+        </section>
+        <section>
+            <h2>콘텐츠</h2>
+            <p>이 섹션에는 다양한 콘텐츠가 포함될 수 있습니다. 예를 들어, 텍스트, 이미지, 비디오 등 다양한 요소를 추가하여 풍부한 웹페이지를 구성할 수 있습니다.</p>
+            <button>자세히 보기</button>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 차분하고 시원한 웹페이지. All rights reserved.
+    </footer>
 </body>
 </html>
